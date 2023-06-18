@@ -143,7 +143,7 @@ function createModalContent(movie) {
   movieTitle.textContent = movie.Title;
 
   const moviePoster = document.createElement("img");
-  moviePoster.classList.add("movie-poster");
+  moviePoster.classList.add("movie-poster-details");
   moviePoster.src = movie.Poster;
   moviePoster.alt = movie.Title;
 

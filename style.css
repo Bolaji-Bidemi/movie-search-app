@@ -28,17 +28,12 @@ main {
 #sort {
   margin-bottom: 30px;
 }
-.sort-select {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  padding: 5px;
-}
 
 #search-input {
   flex: 1;
   padding: 10px;
   font-size: 16px;
+  outline: none;
 }
 
 #search-button {
@@ -56,11 +51,12 @@ main {
 #search-results {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-gap: 25px;
+  grid-gap: 20px;
 }
 
 .movie-card {
   background-color: #1a242f;
+  height: auto;
   color: white;
   cursor: pointer;
   padding: 20px;
@@ -79,9 +75,15 @@ main {
 
 .movie-poster {
   width: 100%;
-  height: 25rem;
-  margin-bottom: 10px;
+  height: 13rem;
+  margin-bottom: 5px;
 }
+.movie-poster-details {
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 10px;
+  }
+
 img {
   width: 100%;
   height: 100%;
